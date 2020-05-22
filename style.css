@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    background: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-size: 1250px 664px;
+    background-repeat: no-repeat;
+    color: white;
+}
+.box {
+    padding: 50px;
+}
+header img {
+    margin-left: 30px;
+}
+h1.head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    /*padding: 10px;*/
+}
+h1.head.register{ 
+    font-weight: 400;
+    font-size: 15px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    color: hsl(257, 40%, 49%);
+    background: white;
+    position: absolute;
+    margin-left: 50px;
+    bottom: 200px;
+    border-radius: 30px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p {
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+section img {
+    margin: 30px;
+    margin-bottom: 50000px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+.container {
+    display: flex;
+}
+.container2 {
+    display: flex;
+}
+aside{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 10px;
+    /*align-self: center;
+    justify-self: flex-end;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;*/
+}
+.footer >* {
+    position: relative;
+    /*right: 0;*/
+   width: 20px;
+    height:20px;
+    margin: 10px;
+    
+}
+.footer{
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+    display: fixed;
+}
+
+@media screen and (max-width: 650px) {
+    body {
+            background: hsl(257, 40%, 49%);
+            background-image: url("images/bg-desktop.svg");
+            background-size: 300px 70%;
+            background-repeat: no-repeat;
+            color: white;  
+    }
+    .container{
+        display: grid;
+        
+    }
+    section img {
+        width: 80%;
+    }
+    p {
+        font-family: 'Open Sans';
+        font-weight: 400px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}

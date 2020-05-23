@@ -59,4 +59,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 
- https://akerele180.github.io/fylo-theme
+  https://akerele180.github.io/Huddle-landing-page-with-single-introductory-section/
